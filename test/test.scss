@@ -1,0 +1,5 @@
+@import "../src/sass-scrim.scss";
+
+article {
+  background: sass-scrim();
+}

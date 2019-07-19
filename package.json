@@ -1,0 +1,32 @@
+{
+  "name": "sass-scrim",
+  "version": "1.0.0",
+  "description": "An implementation of non-linear gradients for Sass",
+  "main": "index.js",
+  "scripts": {
+    "generate-test": "sass test/test.scss test/test.css",
+    "test": "serve test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergionsz/sass-scrim.git"
+  },
+  "keywords": [
+    "sass",
+    "scrim",
+    "css",
+    "gradient",
+    "non-linear",
+    "function"
+  ],
+  "author": "Sergio NS <eng.sergio.ns@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergionsz/sass-scrim/issues"
+  },
+  "homepage": "https://github.com/sergionsz/sass-scrim#readme",
+  "devDependencies": {
+    "sass": "^1.22.7",
+    "serve": "^11.1.0"
+  }
+}
